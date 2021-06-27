@@ -4,6 +4,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-size: 100%;
+	background-color: #f3f3f3;
 }
 
 #cv {
@@ -70,7 +71,7 @@ p{
 	margin-block-end: 0;
 }
 
-#contactDetails ul li{
+#contactDetails ul li {
 	text-decoration: none;
 	list-style: none;
 	font-size: 0.7em;
@@ -78,25 +79,23 @@ p{
 
 }
 
-#contactDetails ul li a{
+#contactDetails ul li a {
 	margin-block-start: 0;
 	text-decoration: none;
 	color: #181818;
 }
 
-#mainArea{
+#mainArea {
 	width: 90%;
 	margin: 0 auto;
 	margin-block-start: 0.5em;
 }
 
-mar
-
-section{
+section {
 	border-bottom: solid 1px #dedede;
 }
 
-section:last-child{
+section:last-child {
 	border: none;
 }
 
