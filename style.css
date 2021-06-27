@@ -1,3 +1,34 @@
+body{
+	font-family: Arial, sans-serif;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+}
+
+#cv {
+	width: 95%;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
+h1{
+	font-family: 'Rokkitt', sans-serif;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+}
+
+p{
+	font-size: 16px;
+}
+
+.mainDetails{
+	margin: 0 auto;
+	border-bottom: #cf8a05 2px solid;
+}
+
 .clear {
 	clear: both;
 }
@@ -6,22 +37,112 @@
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	
+}
+
+#headshot img{
+	width: 80%;
+	border-radius: 50px;
+	height: auto;
 }
 
 #name {
 	float: left;
 }
 
+#name h1{
+	margin-block-end: 0;
+	margin-block-start: 0;
+}
+
+#name h2{
+	margin-block-start: 0;
+	margin-block-end: 1.5em;
+	font-weight: 400;
+}
+
 #contactDetails {
-	float: right;
+	float: right;	
+}
+
+#contactDetails ul{
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+#contactDetails ul li{
+	text-decoration: none;
+	list-style: none;
+	font-size: 0.7em;
+	padding: 0.2em;
+
+}
+
+#contactDetails ul li a{
+	margin-block-start: 0;
+	text-decoration: none;
+	color: #181818;
+}
+
+#mainArea{
+	width: 90%;
+	margin: 0 auto;
+	margin-block-start: 0.5em;
+}
+
+mar
+
+section{
+	border-bottom: solid 1px #dedede;
+}
+
+section:last-child{
+	border: none;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
+
+.sectionTitle h1{
+	font-family: 'Rokkiti';
+	font-weight: 400;
+	font-size: 1.49em;
+	margin-block-start: 0.8em;
+}
+
+
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 72.5%;	
+}
+
+.sectionContent h2{
+	font-family: 'Lato', sans-serif;
+	margin-block-end: 0.1em;
+	font-weight: 400;
+}
+
+.sectionContent p{
+	margin-block-start: 0.2em;
+}
+
+.subDetails{
+	font-size: small;
+	margin-block-end: 0;
+	margin-block-start: 0;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+}
+
+.keySkills {
+	list-style-type: none;
+	column-count: 3;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
 }
